@@ -5,7 +5,11 @@
 {{~header}}
 {{~/if}}
 
-{{<br>}}
+{{~!-- commit link --}} {{#if @root.linkReferences~}}
+{{gitUserInfo}}
+{{~else}}
+{{~hash}}
+{{~/if}}
 
 {{~!-- commit references --}}
 {{~#if references~}}
