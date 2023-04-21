@@ -1,6 +1,6 @@
 {
   "name": "conventional-changelog-custom-config-new",
-  "version": "0.3.9",
+  "version": "0.3.10",
   "description": "This preset extends the angular preset",
   "main": "index.js",
   "scripts": {
